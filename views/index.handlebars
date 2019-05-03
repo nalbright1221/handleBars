@@ -5,7 +5,7 @@
 <ul>
   {{#each drinks}}
     {{#unless chugIt}}
-    <li>
+    <li style="list-style: none">
         {{this.drink_name}}
           <button class="chugItButton" drinkID={{this.id}}>Chug It!</button>
           <!---data - something data attributes <--->
@@ -14,7 +14,7 @@
   {{/each}}
 </ul>
 
-<h2>Drink that have been drank!</h2>
+<h2>Drinks that have been drank!</h2>
 
 <ul>
   {{#each drinks}}

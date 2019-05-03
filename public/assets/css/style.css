@@ -1,0 +1,38 @@
+body {
+    background-image: url("https://www.gannett-cdn.com/presto/2018/08/24/USAT/6de549a7-620f-4bfd-8a2a-f3d20477600a-GettyImages-846037086.jpg?crop=2120,1186,x0,y0&width=3200&height=1680&fit=bounds");
+    color: white;
+    text-align: center;
+}
+h1 {
+    background-color :rgba(0, 0, 0, 0.7);
+}
+
+h2 {
+    background-color :rgba(0, 0, 0, 0.7);
+}
+ul {
+    background-color :rgba(0, 0, 0, 0.7);
+
+}
+li {
+    padding: 5px;
+    margin: 5px;
+  }
+  
+  form {
+    background-color :rgba(0, 0, 0, 0.7);
+  }
+  .label {
+    font-weight: bold;
+  }
+  
+  .create-update-form {
+    padding: 5px;
+    margin: 5px;
+    background: aqua;
+  }
+  
+  .form-group {
+    margin-bottom: 5px;
+  }
+  
