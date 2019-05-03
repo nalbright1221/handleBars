@@ -2,7 +2,7 @@
 $(function() {
     $(".chugItButton").on("click", function(event) {
       var id = $(this).attr("drinkID");
-      console.log(id);
+    //   console.log(id);
       var newDrink = $(this).data("newdrink");
   
       var newDrunkState = {
@@ -15,7 +15,7 @@ $(function() {
         data: newDrunkState
       }).then(
         function() {
-          console.log("changed drink to", newDrink);
+        //   console.log("changed drink to", newDrink);
           // Reload the page to get the updated list
           location.reload();
         }
@@ -37,7 +37,7 @@ $(function() {
         data: newBeverage
       }).then(
         function() {
-          console.log("created new drink");
+        //   console.log("created new drink");
           // Reload the page to get the updated list
           location.reload();
         }

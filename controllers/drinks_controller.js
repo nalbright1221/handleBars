@@ -30,8 +30,8 @@ router.post("/api/drinks", function(req, res) {
 
 router.put("/api/drinks/:id", function(req, res) {
   var condition = "id = " + req.params.id;
-  console.log('chug it:' + JSON.stringify(req.body))
-  console.log("condition", condition);
+  // console.log('chug it:' + JSON.stringify(req.body))
+  // console.log("condition", condition);
 
   drinks.update({
       //sleepy will change 
